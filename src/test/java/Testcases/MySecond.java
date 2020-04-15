@@ -24,6 +24,7 @@ public class MySecond {
 	
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
+		System.out.println("this is in Demo for GIT");
 		//Calculator
 		DesktopOptions option=new DesktopOptions();
 		option.setApplicationPath("C:\\WINDOWS\\system32\\calc.exe");
