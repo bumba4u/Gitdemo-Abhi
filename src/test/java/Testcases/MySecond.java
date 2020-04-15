@@ -16,7 +16,7 @@ import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
 import org.openqa.selenium.winium.WiniumDriverService;
 
-public class Myfirst {
+public class MySecond {
 	
 	static WiniumDriver driver=null;
 	static WiniumDriverService service = null;
@@ -24,6 +24,7 @@ public class Myfirst {
 	
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
+		System.out.println("this is in Demo for GIT");
 		//Calculator
 		DesktopOptions option=new DesktopOptions();
 		option.setApplicationPath("C:\\WINDOWS\\system32\\calc.exe");
