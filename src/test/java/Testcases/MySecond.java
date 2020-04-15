@@ -16,7 +16,7 @@ import org.openqa.selenium.winium.DesktopOptions;
 import org.openqa.selenium.winium.WiniumDriver;
 import org.openqa.selenium.winium.WiniumDriverService;
 
-public class Myfirst {
+public class MySecond {
 	
 	static WiniumDriver driver=null;
 	static WiniumDriverService service = null;
