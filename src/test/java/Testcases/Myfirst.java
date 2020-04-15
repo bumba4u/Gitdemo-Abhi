@@ -25,6 +25,7 @@ public class Myfirst {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 		System.out.println(" this is to test GIT");
+		System.out.println(" this is in My first");
 		//Calculator
 		DesktopOptions option=new DesktopOptions();
 		option.setApplicationPath("C:\\WINDOWS\\system32\\calc.exe");
