@@ -26,13 +26,14 @@ public class MySecond {
 		
 		System.out.println("this is in Demo for GIT");
 		System.out.println(" this is in My Second");
+		System.out.println(" this is in My Second GIT on 11/6");
 		//Calculator
 		DesktopOptions option=new DesktopOptions();
 		option.setApplicationPath("C:\\WINDOWS\\system32\\calc.exe");
 		File driverPath = new File("C:\\Users\\Abhijit\\Desktop\\Selenium\\Winium\\Winium.Desktop.Driver.exe");// set Winium Driver path
 		service= new WiniumDriverService.Builder().usingDriverExecutable(driverPath).usingPort(9999).withVerbose(true)
         .withSilent(false).buildDesktopService();
-		service.start();
+		service.start(); // start a service
 		driver = new WiniumDriver(service, option); // start a Wenium Driver
 		
 		//WiniumDriver driver=new WiniumDriver(new URL("http://localhost:9999"),option);
